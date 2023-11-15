@@ -1,0 +1,62 @@
+@font-face {
+    font-family: fontMario;
+    src: url(./Fonte/super_mario_256/SuperMario256.ttf);
+}
+
+header {
+    display: inline-flex;
+}
+
+#LogoCapMario {
+    height: 40px;
+    margin: 15px 0px 0px 200px;
+}
+
+ul, li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px 0px 25px;
+    transition: transform 0.5s ease;
+}
+
+.navHeadear {
+    font-family: fontMario;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.692);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.navegar:hover, .navegar a:hover {
+    transform: translateY(-3px);
+    color: rgb(255, 0, 0);
+}
+
+@media (min-width: 1000px) and (max-width: 1700px){
+    #LogoCapMario {
+        margin: 15px 30px 0px 60px;
+    }   
+}
+
+@media (min-width: 645px) and (max-width: 1000px){
+    #LogoCapMario {
+        margin: 15px 0px 0px 20px;
+    }
+}   
+
+@media (min-width: 444px) and (max-width: 645px) {
+    #LogoCapMario {
+        margin: 10px -105px 0px 10px;
+    }
+}
+
+@media (max-width: 444px) {
+    #LogoCapMario {
+        display: none;
+    }
+
+    .ulNav{
+        margin-left: 20px;
+    }
+}
