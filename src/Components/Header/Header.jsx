@@ -5,7 +5,7 @@ import logoCap from '../../assets/logo-cap.png'
 function Header() {
     return (
         <header>
-            <img id="LogoCapMario" src={logoCap} alt="" />
+            <img id="LogoCapMario" src={logoCap} alt="Logo chapeu do Mario" />
             
             <div>
 

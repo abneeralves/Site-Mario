@@ -31,14 +31,14 @@ const ConteudoPrincipal = () => {
     return (
         <main>
             <div>
-                <img id="LogoMovie" src={logoMovie} alt="" />
+                <img id="LogoMovie" src={logoMovie} alt="Logo do filme" />
                 <p> <span>{displayTexto}</span></p>
                 <button className="Btrailer"><a href="https://www.youtube.com/watch?v=cDNkh5WybZo">Assistir o Trailer</a></button>
                 <button className="Bingressos"><a href="https://www.ingresso.com/filme/super-mario-bros">Comprar ingressos</a></button>
             </div>
 
             <div className="logoDireita">
-                <img id="LogoMarioLuigi" src={logoMario} alt="" />
+                <img id="LogoMarioLuigi" src={logoMario} alt="Foto do Mario e Luigi" />
 
             </div>
         </main>
