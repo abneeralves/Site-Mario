@@ -1,6 +1,6 @@
 import React from "react";
 import './Header.css'
-import logoCap from '../../assets/logo-cap.png'
+import logoCap from '../../../public/logo-cap.png'
 
 function Header() {
     return (

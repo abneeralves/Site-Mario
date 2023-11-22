@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import './ConteudoPrincipal.css'
-import logoMovie from '../../assets/logo-movie.png'
-import logoMario from '../../assets/mario-and-luigi.png'
+import logoMovie from '../../../public/logo-movie.png'
+import logoMario from '../../../public/mario-and-luigi.png'
 
 const ConteudoPrincipal = () => {
 
@@ -39,7 +39,6 @@ const ConteudoPrincipal = () => {
 
             <div className="logoDireita">
                 <img id="LogoMarioLuigi" src={logoMario} alt="Foto do Mario e Luigi" />
-
             </div>
         </main>
     )

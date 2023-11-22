@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: fontMario;
-    src: url(./Fonte/super_mario_256/SuperMario256.ttf);
+    src: url(../../../public/font/super_mario_256/SuperMario256.ttf);
 }
 
 main {

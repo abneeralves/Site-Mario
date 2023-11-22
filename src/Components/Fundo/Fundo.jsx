@@ -1,6 +1,6 @@
 import React from "react";
 import './Fundo.css'
-import video from '../../assets/background-video.mp4'
+import video from '../../../public/background-video.mp4'
 
 function fundo() {
   return (
